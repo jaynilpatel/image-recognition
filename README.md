@@ -1,1 +1,1 @@
-# image-recognition-google-inception
+# image-recognition-google-inception_v5
