@@ -29,8 +29,8 @@ def inception_download(data_dir='inception', version='v5'):
         return (os.path.join(data_dir, 'classify_image_graph_def.pb'),
                 os.path.join(data_dir, 'imagenet_synset_to_human_label_map.txt'))
     else:
-        download_and_extract_zip(
-            'https://s3.amazonaws.com/cadl/models/inception5h.zip', data_dir)
+        #download_and_extract_zip(
+            #'https://s3.amazonaws.com/cadl/models/inception5h.zip', data_dir)
         return (os.path.join(data_dir, 'tensorflow_inception_graph.pb'),
                 os.path.join(data_dir, 'imagenet_comp_graph_label_strings.txt'))
 
